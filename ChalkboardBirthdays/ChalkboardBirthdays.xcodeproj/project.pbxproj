@@ -16,6 +16,9 @@
 		D40F3E98275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */; };
 		D40F3EA52750065600D465AC /* BirthdaysDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */; };
 		D40F3EA7275006DB00D465AC /* JSONResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EA6275006DB00D465AC /* JSONResults.swift */; };
+		D40F3EA927500A5600D465AC /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40F3EA827500A5600D465AC /* Colors.xcassets */; };
+		D40F3EB127500B1600D465AC /* DateFormatter-DateOfBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EB027500B1600D465AC /* DateFormatter-DateOfBirth.swift */; };
+		D40F3EB327500B9B00D465AC /* StringFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EB227500B9B00D465AC /* StringFormatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardBirthdaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysDataModel.swift; sourceTree = "<group>"; };
 		D40F3EA6275006DB00D465AC /* JSONResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResults.swift; sourceTree = "<group>"; };
+		D40F3EA827500A5600D465AC /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		D40F3EB027500B1600D465AC /* DateFormatter-DateOfBirth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter-DateOfBirth.swift"; sourceTree = "<group>"; };
+		D40F3EB227500B9B00D465AC /* StringFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,12 @@
 		D40F3E79275005EA00D465AC /* ChalkboardBirthdays */ = {
 			isa = PBXGroup;
 			children = (
+				D40F3EAD27500AD300D465AC /* Helpers */,
 				D40F3E7A275005EA00D465AC /* ChalkboardBirthdaysApp.swift */,
-				D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */,
-				D40F3EA6275006DB00D465AC /* JSONResults.swift */,
-				D40F3E7C275005EA00D465AC /* ContentView.swift */,
+				D40F3EAC27500A9800D465AC /* Views */,
+				D40F3EAB27500A8B00D465AC /* View Models */,
+				D40F3EAA27500A7500D465AC /* Model */,
+				D40F3EA827500A5600D465AC /* Colors.xcassets */,
 				D40F3E7E275005EB00D465AC /* Assets.xcassets */,
 				D40F3E80275005EB00D465AC /* Preview Content */,
 			);
@@ -131,6 +139,55 @@
 				D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */,
 			);
 			path = ChalkboardBirthdaysUITests;
+			sourceTree = "<group>";
+		};
+		D40F3EAA27500A7500D465AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D40F3EAB27500A8B00D465AC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D40F3EAC27500A9800D465AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E7C275005EA00D465AC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D40F3EAD27500AD300D465AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3EAF27500AE100D465AC /* Classes */,
+				D40F3EAE27500ADA00D465AC /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D40F3EAE27500ADA00D465AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3EB027500B1600D465AC /* DateFormatter-DateOfBirth.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D40F3EAF27500AE100D465AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3EA6275006DB00D465AC /* JSONResults.swift */,
+				D40F3EB227500B9B00D465AC /* StringFormatters.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D40F3EA927500A5600D465AC /* Colors.xcassets in Resources */,
 				D40F3E82275005EB00D465AC /* Preview Assets.xcassets in Resources */,
 				D40F3E7F275005EB00D465AC /* Assets.xcassets in Resources */,
 			);
@@ -266,6 +324,8 @@
 				D40F3EA7275006DB00D465AC /* JSONResults.swift in Sources */,
 				D40F3E7D275005EA00D465AC /* ContentView.swift in Sources */,
 				D40F3EA52750065600D465AC /* BirthdaysDataModel.swift in Sources */,
+				D40F3EB327500B9B00D465AC /* StringFormatters.swift in Sources */,
+				D40F3EB127500B1600D465AC /* DateFormatter-DateOfBirth.swift in Sources */,
 				D40F3E7B275005EA00D465AC /* ChalkboardBirthdaysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
