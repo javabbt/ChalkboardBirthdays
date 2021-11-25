@@ -15,6 +15,11 @@ struct BirthdaysData: Codable {
     var id = UUID()
     var name: NameData
     var dob: DOBData
+
+    enum CodingKeys: String, CodingKey {
+        case name = "name"
+        case dob = "dob"
+    }
 }
 
 struct NameData: Codable {

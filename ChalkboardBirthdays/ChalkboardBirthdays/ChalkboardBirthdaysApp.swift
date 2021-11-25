@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct ChalkboardBirthdaysApp: App {
+    @StateObject var results: Results
+
+    init() {
+        let results = Results()
+        _results = StateObject(wrappedValue: results)
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(results: results)
+                .environmentObject(results)
+                .task {
+                    await results.getData()
+                }
         }
     }
 }
