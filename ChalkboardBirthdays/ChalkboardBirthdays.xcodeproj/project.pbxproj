@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40F3E7B275005EA00D465AC /* ChalkboardBirthdaysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E7A275005EA00D465AC /* ChalkboardBirthdaysApp.swift */; };
+		D40F3E7D275005EA00D465AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E7C275005EA00D465AC /* ContentView.swift */; };
+		D40F3E7F275005EB00D465AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40F3E7E275005EB00D465AC /* Assets.xcassets */; };
+		D40F3E82275005EB00D465AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40F3E81275005EB00D465AC /* Preview Assets.xcassets */; };
+		D40F3E8C275005EB00D465AC /* ChalkboardBirthdaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E8B275005EB00D465AC /* ChalkboardBirthdaysTests.swift */; };
+		D40F3E96275005EB00D465AC /* ChalkboardBirthdaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E95275005EB00D465AC /* ChalkboardBirthdaysUITests.swift */; };
+		D40F3E98275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */; };
+		D40F3EA52750065600D465AC /* BirthdaysDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */; };
+		D40F3EA7275006DB00D465AC /* JSONResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EA6275006DB00D465AC /* JSONResults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40F3E88275005EB00D465AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F3E6F275005EA00D465AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F3E76275005EA00D465AC;
+			remoteInfo = ChalkboardBirthdays;
+		};
+		D40F3E92275005EB00D465AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F3E6F275005EA00D465AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F3E76275005EA00D465AC;
+			remoteInfo = ChalkboardBirthdays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40F3E77275005EA00D465AC /* ChalkboardBirthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChalkboardBirthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F3E7A275005EA00D465AC /* ChalkboardBirthdaysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardBirthdaysApp.swift; sourceTree = "<group>"; };
+		D40F3E7C275005EA00D465AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D40F3E7E275005EB00D465AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40F3E81275005EB00D465AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D40F3E87275005EB00D465AC /* ChalkboardBirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkboardBirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F3E8B275005EB00D465AC /* ChalkboardBirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardBirthdaysTests.swift; sourceTree = "<group>"; };
+		D40F3E91275005EB00D465AC /* ChalkboardBirthdaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChalkboardBirthdaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F3E95275005EB00D465AC /* ChalkboardBirthdaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardBirthdaysUITests.swift; sourceTree = "<group>"; };
+		D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChalkboardBirthdaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysDataModel.swift; sourceTree = "<group>"; };
+		D40F3EA6275006DB00D465AC /* JSONResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResults.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40F3E74275005EA00D465AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E84275005EB00D465AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E8E275005EB00D465AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40F3E6E275005EA00D465AC = {
+			isa = PBXGroup;
+			children = (
+				D40F3E79275005EA00D465AC /* ChalkboardBirthdays */,
+				D40F3E8A275005EB00D465AC /* ChalkboardBirthdaysTests */,
+				D40F3E94275005EB00D465AC /* ChalkboardBirthdaysUITests */,
+				D40F3E78275005EA00D465AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40F3E78275005EA00D465AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E77275005EA00D465AC /* ChalkboardBirthdays.app */,
+				D40F3E87275005EB00D465AC /* ChalkboardBirthdaysTests.xctest */,
+				D40F3E91275005EB00D465AC /* ChalkboardBirthdaysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40F3E79275005EA00D465AC /* ChalkboardBirthdays */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E7A275005EA00D465AC /* ChalkboardBirthdaysApp.swift */,
+				D40F3EA42750065600D465AC /* BirthdaysDataModel.swift */,
+				D40F3EA6275006DB00D465AC /* JSONResults.swift */,
+				D40F3E7C275005EA00D465AC /* ContentView.swift */,
+				D40F3E7E275005EB00D465AC /* Assets.xcassets */,
+				D40F3E80275005EB00D465AC /* Preview Content */,
+			);
+			path = ChalkboardBirthdays;
+			sourceTree = "<group>";
+		};
+		D40F3E80275005EB00D465AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E81275005EB00D465AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D40F3E8A275005EB00D465AC /* ChalkboardBirthdaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E8B275005EB00D465AC /* ChalkboardBirthdaysTests.swift */,
+			);
+			path = ChalkboardBirthdaysTests;
+			sourceTree = "<group>";
+		};
+		D40F3E94275005EB00D465AC /* ChalkboardBirthdaysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F3E95275005EB00D465AC /* ChalkboardBirthdaysUITests.swift */,
+				D40F3E97275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift */,
+			);
+			path = ChalkboardBirthdaysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40F3E76275005EA00D465AC /* ChalkboardBirthdays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F3E9B275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdays" */;
+			buildPhases = (
+				D40F3E73275005EA00D465AC /* Sources */,
+				D40F3E74275005EA00D465AC /* Frameworks */,
+				D40F3E75275005EA00D465AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChalkboardBirthdays;
+			productName = ChalkboardBirthdays;
+			productReference = D40F3E77275005EA00D465AC /* ChalkboardBirthdays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40F3E86275005EB00D465AC /* ChalkboardBirthdaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F3E9E275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdaysTests" */;
+			buildPhases = (
+				D40F3E83275005EB00D465AC /* Sources */,
+				D40F3E84275005EB00D465AC /* Frameworks */,
+				D40F3E85275005EB00D465AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F3E89275005EB00D465AC /* PBXTargetDependency */,
+			);
+			name = ChalkboardBirthdaysTests;
+			productName = ChalkboardBirthdaysTests;
+			productReference = D40F3E87275005EB00D465AC /* ChalkboardBirthdaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40F3E90275005EB00D465AC /* ChalkboardBirthdaysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F3EA1275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdaysUITests" */;
+			buildPhases = (
+				D40F3E8D275005EB00D465AC /* Sources */,
+				D40F3E8E275005EB00D465AC /* Frameworks */,
+				D40F3E8F275005EB00D465AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F3E93275005EB00D465AC /* PBXTargetDependency */,
+			);
+			name = ChalkboardBirthdaysUITests;
+			productName = ChalkboardBirthdaysUITests;
+			productReference = D40F3E91275005EB00D465AC /* ChalkboardBirthdaysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40F3E6F275005EA00D465AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D40F3E76275005EA00D465AC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D40F3E86275005EB00D465AC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D40F3E76275005EA00D465AC;
+					};
+					D40F3E90275005EB00D465AC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D40F3E76275005EA00D465AC;
+					};
+				};
+			};
+			buildConfigurationList = D40F3E72275005EA00D465AC /* Build configuration list for PBXProject "ChalkboardBirthdays" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40F3E6E275005EA00D465AC;
+			productRefGroup = D40F3E78275005EA00D465AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40F3E76275005EA00D465AC /* ChalkboardBirthdays */,
+				D40F3E86275005EB00D465AC /* ChalkboardBirthdaysTests */,
+				D40F3E90275005EB00D465AC /* ChalkboardBirthdaysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40F3E75275005EA00D465AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F3E82275005EB00D465AC /* Preview Assets.xcassets in Resources */,
+				D40F3E7F275005EB00D465AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E85275005EB00D465AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E8F275005EB00D465AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40F3E73275005EA00D465AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F3EA7275006DB00D465AC /* JSONResults.swift in Sources */,
+				D40F3E7D275005EA00D465AC /* ContentView.swift in Sources */,
+				D40F3EA52750065600D465AC /* BirthdaysDataModel.swift in Sources */,
+				D40F3E7B275005EA00D465AC /* ChalkboardBirthdaysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E83275005EB00D465AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F3E8C275005EB00D465AC /* ChalkboardBirthdaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F3E8D275005EB00D465AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F3E98275005EB00D465AC /* ChalkboardBirthdaysUITestsLaunchTests.swift in Sources */,
+				D40F3E96275005EB00D465AC /* ChalkboardBirthdaysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40F3E89275005EB00D465AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F3E76275005EA00D465AC /* ChalkboardBirthdays */;
+			targetProxy = D40F3E88275005EB00D465AC /* PBXContainerItemProxy */;
+		};
+		D40F3E93275005EB00D465AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F3E76275005EA00D465AC /* ChalkboardBirthdays */;
+			targetProxy = D40F3E92275005EB00D465AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D40F3E99275005EB00D465AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40F3E9A275005EB00D465AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40F3E9C275005EB00D465AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalkboardBirthdays/Preview Content\"";
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D40F3E9D275005EB00D465AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChalkboardBirthdays/Preview Content\"";
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D40F3E9F275005EB00D465AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChalkboardBirthdays.app/ChalkboardBirthdays";
+			};
+			name = Debug;
+		};
+		D40F3EA0275005EB00D465AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChalkboardBirthdays.app/ChalkboardBirthdays";
+			};
+			name = Release;
+		};
+		D40F3EA2275005EB00D465AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChalkboardBirthdays;
+			};
+			name = Debug;
+		};
+		D40F3EA3275005EB00D465AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPQVGWRDY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.robcopping.ChalkboardBirthdaysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChalkboardBirthdays;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40F3E72275005EA00D465AC /* Build configuration list for PBXProject "ChalkboardBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F3E99275005EB00D465AC /* Debug */,
+				D40F3E9A275005EB00D465AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F3E9B275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F3E9C275005EB00D465AC /* Debug */,
+				D40F3E9D275005EB00D465AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F3E9E275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F3E9F275005EB00D465AC /* Debug */,
+				D40F3EA0275005EB00D465AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F3EA1275005EB00D465AC /* Build configuration list for PBXNativeTarget "ChalkboardBirthdaysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F3EA2275005EB00D465AC /* Debug */,
+				D40F3EA3275005EB00D465AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40F3E6F275005EA00D465AC /* Project object */;
+}
