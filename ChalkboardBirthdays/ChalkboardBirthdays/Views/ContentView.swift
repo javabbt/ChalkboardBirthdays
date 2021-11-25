@@ -11,7 +11,7 @@ struct ContentView: View {
     @ObservedObject var results: Results
 
     var body: some View {
-        NavigationView{
+        NavigationView {
             ListViewModel(results: results)
         }
     }

@@ -31,7 +31,9 @@ class Results: ObservableObject {
         } catch {
             print(error)
         }
-
+        results.sort {
+            $0.dob.date > $1.dob.date
+        }
         responseResults = results
     }
 }

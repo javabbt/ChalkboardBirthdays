@@ -9,7 +9,7 @@ import Foundation
 
 class StringFormatters {
     func getInitials(firstName: String, lastName: String) -> String {
-        if (firstName != "" && lastName != "") {
+        if firstName != "" && lastName != "" {
             return "\(firstName.prefix(1))\(lastName.prefix(1))"
         } else {
             return "\(firstName.prefix(1))"

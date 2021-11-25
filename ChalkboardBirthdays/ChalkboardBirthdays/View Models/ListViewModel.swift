@@ -12,7 +12,7 @@ struct ListViewModel: View {
 
     var body: some View {
         List(results.responseResults, id: \.id) { person in
-            NavigationLink(destination: PersonDetailViewModel(person: person)){
+            NavigationLink(destination: PersonDetailViewModel(person: person)) {
                 ListRowViewModel(person: person)
             }
         }
