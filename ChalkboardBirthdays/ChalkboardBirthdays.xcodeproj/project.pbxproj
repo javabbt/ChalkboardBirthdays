@@ -22,6 +22,7 @@
 		D40F3EB527500CB500D465AC /* ListRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EB427500CB500D465AC /* ListRowViewModel.swift */; };
 		D40F3EB727500F6F00D465AC /* CircleIconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EB627500F6F00D465AC /* CircleIconViewModel.swift */; };
 		D40F3EB92750108B00D465AC /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EB82750108B00D465AC /* ListViewModel.swift */; };
+		D40F3EBB2750136000D465AC /* PersonDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F3EBA2750136000D465AC /* PersonDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D40F3EB427500CB500D465AC /* ListRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowViewModel.swift; sourceTree = "<group>"; };
 		D40F3EB627500F6F00D465AC /* CircleIconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleIconViewModel.swift; sourceTree = "<group>"; };
 		D40F3EB82750108B00D465AC /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		D40F3EBA2750136000D465AC /* PersonDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				D40F3EB427500CB500D465AC /* ListRowViewModel.swift */,
 				D40F3EB627500F6F00D465AC /* CircleIconViewModel.swift */,
 				D40F3EB82750108B00D465AC /* ListViewModel.swift */,
+				D40F3EBA2750136000D465AC /* PersonDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				D40F3EB92750108B00D465AC /* ListViewModel.swift in Sources */,
 				D40F3EB327500B9B00D465AC /* StringFormatters.swift in Sources */,
 				D40F3EB127500B1600D465AC /* DateFormatter-DateOfBirth.swift in Sources */,
+				D40F3EBB2750136000D465AC /* PersonDetailViewModel.swift in Sources */,
 				D40F3E7B275005EA00D465AC /* ChalkboardBirthdaysApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

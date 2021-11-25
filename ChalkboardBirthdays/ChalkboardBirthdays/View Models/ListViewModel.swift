@@ -12,11 +12,12 @@ struct ListViewModel: View {
 
     var body: some View {
         List(results.responseResults, id: \.id) { person in
-            NavigationLink(destination: EmptyView()){
+            NavigationLink(destination: PersonDetailViewModel(person: person)){
                 ListRowViewModel(person: person)
             }
         }
         .listStyle(.plain)
+        .navigationBarBackButtonHidden(true)
         .navigationTitle("Birthdays")
         .navigationBarTitleDisplayMode(.inline)
     }
